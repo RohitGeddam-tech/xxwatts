@@ -11,13 +11,12 @@
 
 .hire-none{
     width: 100%;
-    background-color: transparent;
+    background-color: white;
     display: flex;
     flex-flow: column;
     align-items: center;
     overflow-x: hidden;
     transition: all 2s ease-in-out;
-    opacity: 0;
 }
 
 .largehire{
