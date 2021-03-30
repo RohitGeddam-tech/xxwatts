@@ -23,9 +23,7 @@ const View = () => {
     const rect = refColor.getBoundingClientRect();
     return (
       (rect.top <= 100 || rect.top <= 300 || rect.top <= 500) &&
-      (rect.bottom <= 0 ||
-        rect.bottom >= window.innerHeight ||
-        rect.bottom >= window.innerHeight - 100 ||
+      (rect.bottom >= window.innerHeight - 100 ||
         rect.bottom >= window.innerHeight - 300 ||
         rect.bottom >= window.innerHeight - 500)
     );
@@ -35,11 +33,9 @@ const View = () => {
 
   const [inView, setInView] = useState(false);
 
-  const [serView, setserView] = useState(false);
 
   useEffect(() => {
     setInView(isInView());
-    setserView(isInView())
     window.addEventListener("scroll", scrollHandler);
     return () => {
       window.removeEventListener("scroll", scrollHandler);

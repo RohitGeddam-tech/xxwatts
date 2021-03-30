@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./css/about.css";
 import Slider from "../components/Sliding";
 import Aos from "aos";
@@ -285,8 +285,40 @@ const About = () => {
     });
   });
 
+  const colorRef = useRef(null);
+
+  const isInView = () => {
+    const refColor = colorRef.current;
+    const rect = refColor.getBoundingClientRect();
+    return (
+      (rect.top <= 100 || rect.top <= 300 || rect.top <= 500) &&
+      (rect.bottom >= window.innerHeight - 100 ||
+        rect.bottom >= window.innerHeight - 300 ||
+        rect.bottom >= window.innerHeight - 500)
+    );
+  };
+
+  console.log(window.innerHeight);
+
+  const [inView, setInView] = useState(false);
+
+
+  useEffect(() => {
+    setInView(isInView());
+    window.addEventListener("scroll", scrollHandler);
+    return () => {
+      window.removeEventListener("scroll", scrollHandler);
+    };
+  }, []);
+
+  const scrollHandler = () => {
+    setInView(isInView());
+  };
+
+  const aboutColor = inView ? 'aboutColor' : 'aboutColor-none'
+
   return (
-    <div>
+    <div ref={colorRef} className={aboutColor}>
       {isDesktop ? (
         <>
           {isTab ? (

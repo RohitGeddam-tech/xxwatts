@@ -6,7 +6,6 @@
     align-items: center;
     overflow-x: hidden;
     transition: all 0.5s ease-in-out;
-    opacity: 1;
 }
 
 .hire-none{
