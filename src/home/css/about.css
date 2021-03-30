@@ -1,0 +1,359 @@
+.about{
+    background-color: #202020 !important;
+    width: 100%;
+    padding-bottom: 30px;
+    transition: all 2s ease-in-out;
+}
+
+.about-none{
+    background-color: #fff !important;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.largeabout{
+    width: 1400px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.aboutfirst{
+    width: 95%;
+    display: flex;
+    padding-top: 50px;
+    margin: auto;
+    margin-right: 0 !important;
+}
+
+.yellowtab{
+    width: 33%;
+    height: fit-content !important;
+    margin-right: -23%;
+    margin-bottom: -20px;
+}
+
+.tabcontainer{
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background: #EEEA64;
+}
+
+.heading{
+    padding-top: 30px;
+font-family: 'Cabin',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+color: #F7008C;
+}
+
+.abouth1{
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #F7008C;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+width: 80%;
+}
+
+.aboutpara{
+    font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 8px 0px;
+width: 90%;
+}
+
+.aboutbtn{
+    background-color: transparent !important;
+    border: 1px solid rgb(247, 0, 140) !important;
+    padding-left: 25.6px;
+    padding-right: 25.6px;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+    border-radius: 50px;
+    width: fit-content;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7008C;
+    margin: auto;
+}
+
+.aboutvideo{
+    width: 85%;
+    display: flex;
+    height: 430px;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: -40px;
+}
+
+
+.sliderbox{
+    width: 99.9%;
+    display: flex;
+}
+
+.slider{
+    margin-left: 50px;
+    width: 60%;
+}
+
+.slidercover{
+    width: 280px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-bottom: 20px;
+    z-index: 99;
+}
+
+.slidecontainer{
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    padding-left: 20px;
+}
+
+.sliderheading{
+    font-family: 'Cabin',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+color: #202020;
+padding-top: 15px;
+}
+
+.sliderh1{
+    font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #202020;
+margin-top: 10px;
+}
+
+.sliderbtn{
+    background-color: black !important;
+    border: 1px solid black !important;
+    padding-left: 25.6px;
+    padding-right: 25.6px;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+    border-radius: 50px;
+    width: fit-content;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.slide{
+    margin-top: 40px;
+}
+
+.sliderimg{
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderin{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slide{
+    height: 100%;
+}
+
+.slick-slide img{
+    width: 120px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-slide img:focus{
+    outline: 0 !important;
+}
+
+.slick-track{
+    /* width: 100% !important; */
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0 !important;
+}
+
+.imag{
+    width: 65% !important;
+    margin-left: -25%;
+}
+
+.imag{
+    margin-right: -36%;
+}
+
+.ifade{
+    width: 65%;
+}
+
+.iconplay{
+    width: 100px;
+    height: 100px;
+    margin-top: 160px;
+}
+
+.mobplay{
+    width: 150px;
+    height: 150px;
+}
+
+.frame{
+    display: none;
+}
+
+.fade{
+    width: 100%;
+}
+
+.pict{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/*mobile starts*/
+
+.mobcontainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 30px;
+}
+
+.mobheading{
+    font-family: 'Cabin',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+color: #ffffff;
+padding-top: 10px;
+padding-left: 10px;
+margin-bottom: 0 !important;
+}
+
+.mobh1{
+    font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+padding-left: 10px;
+line-height: 33px;
+color: #fff;
+margin-top: 10px;
+}
+
+.mobaboutbtn{
+    background-color: white !important;
+    border: 1px solid white !important;
+    padding-left: 25.6px;
+    padding-right: 25.6px;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+    border-radius: 50px;
+    margin-left: 10px !important;
+    width: fit-content;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #202020;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.mob-container{
+    width: 100%;
+    margin: auto;
+    margin-top: -2%;
+    margin-bottom: -3%;
+}
+
+.tab-container{
+    width: 95%;
+    margin: auto;
+}
+
+.btncenter{
+    display: flex;
+    justify-content: center;
+}
+
+.mob-frame{
+    width: 95%;
+    margin: auto;
+}
+
+.mobslide{
+    margin-top: 0;
+}
+
+.yellowtabmob{
+    width: 100%;
+    background-color: #EEEA64;
+    padding: 25px 10px 45px;
+    display: flex;
+}
+
+.alignbtn{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+/*mobile ends*/

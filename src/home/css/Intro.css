@@ -1,0 +1,239 @@
+.Intro{
+  width: 100%;
+  height: fit-content !important;
+  padding-top: 56px !important;
+}
+
+.largeIntro{
+    width: 1400px;
+    height: fit-content !important;
+    margin: auto;
+    padding-top: 56px !important;
+}
+
+.home {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.image{
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+}
+
+/* .image img{
+    width: 100%;
+} */
+
+.firstimage{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bunny{
+    width: auto;
+    margin: auto;
+    margin-right: 50px !important;
+}
+
+.firstimage img{
+    height: auto !important;
+    width: auto;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 20px;
+    flex-flow: column nowrap;
+}
+
+.para{
+    color: rgb(135, 135, 135);
+    font-size: 30px;
+    text-align: start;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    width: 80%;
+}
+
+.btn{
+    background-color: white !important;
+    border: 1px solid rgb(247, 0, 140) !important;
+    padding-left: 25.6px;
+    padding-right: 25.6px;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+    border-radius: 50px;
+    width: fit-content;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7008C;
+}
+
+/*Mobile starts*/
+
+.mobhome{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.mobcontent{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mobpara{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(247, 0, 140);
+}
+
+.mobbtn{
+    background-color: white !important;
+    border: 1px solid rgb(135, 135, 135) !important;
+    padding-left: 25.6px;   
+    padding-right: 25.6px;
+    padding-top: 12.8px;
+    padding-bottom: 12.8px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(135, 135, 135);
+}
+
+.mobileimage img{
+    width: 100% !important;
+}
+
+/*Mobile ends*/
+
+/*first-about page starts*/
+
+.fahome{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.facontent{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    flex-flow: column nowrap;
+    padding-top: 15px;
+}
+
+.fafirst-title{
+    text-align: start;
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #4D6CFA;
+    padding-top: 20px;
+}
+
+.faquote{
+    font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #4D6CFA;
+text-align: start;
+text-transform: uppercase;
+width: 62%;
+}
+
+.fapara{
+    font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+width: 82%;
+}
+
+/*Mobile */
+.famobcontent{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fafirst-mobtitle{
+    width: 95%;
+    text-align: start;
+    font-family: 'Cabin', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #4D6CFA;
+    padding-top: 20px;
+}
+
+.famobquote{
+    width: 95%;
+    font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #4D6CFA;
+text-align: start;
+text-transform: uppercase;
+}
+
+.famobpara{
+    width: 95%;
+    font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+}
+
+/*first-about page ends*/
