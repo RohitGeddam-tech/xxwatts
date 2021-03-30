@@ -35,8 +35,11 @@ const View = () => {
 
   const [inView, setInView] = useState(false);
 
+  const [serView, setserView] = useState(false);
+
   useEffect(() => {
     setInView(isInView());
+    setserView(isInView())
     window.addEventListener("scroll", scrollHandler);
     return () => {
       window.removeEventListener("scroll", scrollHandler);
@@ -83,19 +86,13 @@ const View = () => {
 };
 
 const App = () => {
-  const colorRef = useRef(null);
+  const newRef = useRef(null);
 
   const isInView = () => {
-    const refColor = colorRef.current;
+    const refColor = newRef.current;
     const rect = refColor.getBoundingClientRect();
     return (
-      rect.top >= 300 &&
-      // (rect.bottom <= 0 ||
-      // rect.bottom >= window.innerHeight ||
-      // rect.bottom >= window.innerHeight - 100 ||
-      // rect.bottom >= window.innerHeight - 300 ||
-      // rect.bottom >= window.innerHeight - 500 ||
-      rect.bottom >= window.innerHeight
+      rect.top <= -200
     );
   };
 
@@ -130,7 +127,7 @@ const App = () => {
           </div>
         }
       >
-    <div ref={colorRef} className={backColor}>
+    <div ref={newRef} className={backColor}>
       <View />
     </div>
     </Suspense>
