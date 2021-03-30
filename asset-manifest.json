@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xxwatts/static/css/main.b5c18fce.chunk.css",
+    "main.css": "/xxwatts/static/css/main.8661a8ad.chunk.css",
     "main.js": "/xxwatts/static/js/main.8cfbe0cf.chunk.js",
     "main.js.map": "/xxwatts/static/js/main.8cfbe0cf.chunk.js.map",
     "runtime-main.js": "/xxwatts/static/js/runtime-main.252aa8fa.js",
@@ -14,7 +14,7 @@
     "index.html": "/xxwatts/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/xxwatts/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/3.c1cf06bf.chunk.css.map": "/xxwatts/static/css/3.c1cf06bf.chunk.css.map",
-    "static/css/main.b5c18fce.chunk.css.map": "/xxwatts/static/css/main.b5c18fce.chunk.css.map",
+    "static/css/main.8661a8ad.chunk.css.map": "/xxwatts/static/css/main.8661a8ad.chunk.css.map",
     "static/js/2.12befb4e.chunk.js.LICENSE.txt": "/xxwatts/static/js/2.12befb4e.chunk.js.LICENSE.txt",
     "static/media/Creative1.ecdc0c1b.svg": "/xxwatts/static/media/Creative1.ecdc0c1b.svg",
     "static/media/Frame2.6756bbc8.png": "/xxwatts/static/media/Frame2.6756bbc8.png",
@@ -50,7 +50,7 @@
     "static/js/runtime-main.252aa8fa.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.12befb4e.chunk.js",
-    "static/css/main.b5c18fce.chunk.css",
+    "static/css/main.8661a8ad.chunk.css",
     "static/js/main.8cfbe0cf.chunk.js"
   ]
 }
