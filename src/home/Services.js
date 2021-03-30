@@ -316,6 +316,8 @@ const Services = () => {
 
   const servColor = serView ? 'services' : 'services-none'
 
+  const bottom50 = serView ? 'bottom50' : 'bottom50-none'
+
   return (
     <div ref={colorRef} id="services" className={servColor}>
       {isDesktop ? (
@@ -325,6 +327,7 @@ const Services = () => {
           {isMobile ? <Mobile /> : <Desktop />}
         </div>
       )}
+      <div className={bottom50}></div>
     </div>
   );
 };

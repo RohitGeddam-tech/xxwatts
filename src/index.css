@@ -7,6 +7,10 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  outline-color: transparent !important;
+  stroke-opacity: 0 !important;
+  stroke: transparent !important;
+  stroke-width: 0 !important;
 }
 
 code {

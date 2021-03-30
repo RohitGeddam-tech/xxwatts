@@ -31,6 +31,8 @@
   margin-top: 14px;
   margin-left: 8px;
   background-color: #202020;
+  animation: lines1;
+  animation-duration: 0.5s;
 }
 
 .line2 {
@@ -40,6 +42,8 @@
   margin-top: 22px;
   margin-left: 12px;
   background-color: #202020;
+  animation: lines2;
+  animation-duration: 0.5s;
 }
 
 .line3 {
@@ -49,6 +53,23 @@
   margin-top: 30px;
   margin-left: 16px;
   background-color: #202020;
+  animation: lines3;
+  animation-duration: 0.5s;
+}
+
+@keyframes lines1{
+  from{margin-top: 22px;}
+  to {margin-bottom: 0;}
+}
+
+@keyframes lines2{
+  from{margin-top: 22px;}
+  to {margin-top: 22px;}
+}
+
+@keyframes lines3{
+  from{margin-top: 22px;}
+  to {margin-top: 30px;}
 }
 
 .xline1 {
@@ -59,6 +80,8 @@
   margin-left: 8px;
   background-color: #fff;
   transform: rotate(45deg);
+  animation-name: example1;
+  animation-duration: 0.5s;
 }
 
 .xline2 {
@@ -68,5 +91,17 @@
   margin-top: 14px;
   margin-left: 8px;
   background-color: #fff;
+  animation-name: example;
+  animation-duration: 0.5s;
   transform: rotate(-45deg);
+}
+
+@keyframes example1{
+  from {transform: rotate(-45deg);}
+  to {transform: rotate(45deg);}
+}
+
+@keyframes example{
+  from {transform: rotate(45deg);}
+  to {transform: rotate(-45deg);}
 }

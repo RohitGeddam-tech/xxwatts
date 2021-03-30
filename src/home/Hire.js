@@ -56,13 +56,13 @@ const Hire = () => {
   const hireColor = serView ? 'hire' : 'hire-none'
 
   return (
-    <div className={hireColor} ref={colorRef}>
-      {isDesktop ? (
-        <>{isMobile ? <HireMob /> : <HireDesk />}</>
-      ) : (
-        <div className="largehire">{isMobile ? <HireMob /> : <HireDesk />}</div>
-      )}
-    </div>
+    <><div className={hireColor} ref={colorRef}>
+    {isDesktop ? (
+      <>{isMobile ? <HireMob /> : <HireDesk />}</>
+    ) : (
+      <div className="largehire">{isMobile ? <HireMob /> : <HireDesk />}</div>
+    )}
+  </div></>
   );
 };
 

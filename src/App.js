@@ -52,29 +52,17 @@ const View = () => {
     <>
       <Suspense>
         <Nav />
-        <section>
           <Intro />
-        </section>
         <Suspense>
-          <section>
             <div ref={colorRef} className={classColor}>
               <About />
             </div>
-          </section>
         </Suspense>
         <Suspense>
-          <section>
-            <div>
               <Services />
-            </div>
-          </section>
         </Suspense>
         <Suspense>
-          <section>
-            <div>
               <Hire />
-            </div>
-          </section>
         </Suspense>
       </Suspense>
     </>
